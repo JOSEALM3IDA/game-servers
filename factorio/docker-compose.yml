@@ -10,8 +10,7 @@ services:
     volumes:
       - ./data:/factorio
     environment:
-      - GENERATE_NEW_SAVE=true
-      - DLC_SPAGE_AGE=false 
+      - DLC_SPACE_AGE=false 
     
     # Uncomment to enable autoupdate via watchtower
     #labels:
